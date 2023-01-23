@@ -1,4 +1,4 @@
-FROM golang:1.19 AS build
+FROM golang:1.19.5
 
 ARG LIBVIPS_VERSION=8.12.2
 
