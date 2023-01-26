@@ -2,7 +2,6 @@ FROM golang:1.19.5
 
 ARG LIBVIPS_VERSION=8.12.2
 
-## Building vips from source which we need to process images
 RUN apt-get update && \
   apt-get install --no-install-recommends -y \
   ca-certificates \
