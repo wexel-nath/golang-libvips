@@ -1,4 +1,4 @@
-FROM golang:1.20.4
+FROM golang:1.21.0
 
 ARG LIBVIPS_VERSION=8.12.2
 
